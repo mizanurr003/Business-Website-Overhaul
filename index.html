@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://static.readdy.ai/static/e.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Business Services - Modern Website Design & Development</title>
+    <meta name="description" content="Transform your business with our professional website design, development, and digital marketing services. Expert team delivering modern, responsive solutions.">
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#57b5e7',
+                        secondary: '#8dd3c7'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+    <style>
+        :where([class^="ri-"])::before {
+            content: "\f3c2";
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+    <header class="sticky top-0 z-50 bg-white shadow-sm">
+        <nav class="w-full px-6 py-4">
+            <div class="max-w-7xl mx-auto flex items-center justify-between">
+                <div class="flex items-center space-x-2">
+                    <h1 class="text-2xl font-['Pacifico'] text-gray-800">logo</h1>
+                </div>
+                <div class="hidden lg:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-primary transition-colors">Home</a>
+                    <a href="#services" class="text-gray-700 hover:text-primary transition-colors">Services</a>
+                    <a href="#about" class="text-gray-700 hover:text-primary transition-colors">About</a>
+                    <a href="#portfolio" class="text-gray-700 hover:text-primary transition-colors">Portfolio</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary transition-colors">Contact</a>
+                </div>
+                <div class="hidden lg:flex items-center space-x-4">
+                    <div class="flex items-center space-x-2 text-sm text-gray-600">
+                        <div class="w-4 h-4 flex items-center justify-center">
+                            <i class="ri-phone-line text-sm"></i>
+                        </div>
+                        <span>(555) 123-4567</span>
+                    </div>
+                    <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap">
+                        Book Now
+                    </button>
+                </div>
+                <button class="lg:hidden w-8 h-8 flex items-center justify-center" id="mobile-menu-btn">
+                    <i class="ri-menu-line text-xl"></i>
+                </button>
+            </div>
+            <div class="lg:hidden hidden mt-4 border-t pt-4" id="mobile-menu">
+                <div class="flex flex-col space-y-4">
+                    <a href="#home" class="text-gray-700 hover:text-primary transition-colors">Home</a>
+                    <a href="#services" class="text-gray-700 hover:text-primary transition-colors">Services</a>
+                    <a href="#about" class="text-gray-700 hover:text-primary transition-colors">About</a>
+                    <a href="#portfolio" class="text-gray-700 hover:text-primary transition-colors">Portfolio</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary transition-colors">Contact</a>
+                    <div class="flex items-center space-x-2 text-sm text-gray-600">
+                        <div class="w-4 h-4 flex items-center justify-center">
+                            <i class="ri-phone-line text-sm"></i>
+                        </div>
+                        <span>(555) 123-4567</span>
+                    </div>
+                    <button class="bg-primary text-white px-6 py-2 !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap w-fit">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="relative min-h-screen flex items-center" style="background-image: url('https://readdy.ai/api/search-image?query=Modern%20professional%20office%20environment%20with%20clean%20white%20background%2C%20soft%20natural%20lighting%2C%20minimalist%20workspace%20with%20computer%20screens%20showing%20website%20designs%2C%20contemporary%20furniture%2C%20plants%2C%20large%20windows%2C%20professional%20atmosphere%2C%20high-tech%20ambiance%2C%20clean%20aesthetic%2C%20business%20setting%2C%20digital%20agency%20workspace&width=1920&height=1080&seq=hero001&orientation=landscape'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-white bg-opacity-60"></div>
+            <div class="relative w-full px-6">
+                <div class="max-w-7xl mx-auto">
+                    <div class="max-w-2xl">
+                        <h2 class="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                            Transform Your Business with
+                            <span class="text-primary">Modern Design</span>
+                        </h2>
+                        <p class="text-xl text-gray-700 mb-8 leading-relaxed">
+                            We deliver professional website design, development, and digital marketing solutions that drive results. Our expert team creates modern, responsive websites that enhance your brand and improve customer experience.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <button class="bg-primary text-white px-8 py-4 !rounded-button hover:bg-opacity-90 transition-colors text-lg whitespace-nowrap">
+                                Start Your Project
+                            </button>
+                            <button class="border-2 border-gray-300 text-gray-700 px-8 py-4 !rounded-button hover:border-primary hover:text-primary transition-colors text-lg whitespace-nowrap">
+                                View Portfolio
+                            </button>
+                        </div>
+                        <div class="flex items-center space-x-8 mt-12">
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-gray-900">500+</div>
+                                <div class="text-sm text-gray-600">Projects Completed</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-gray-900">98%</div>
+                                <div class="text-sm text-gray-600">Client Satisfaction</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-gray-900">8+</div>
+                                <div class="text-sm text-gray-600">Years Experience</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Professional Services</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        We offer comprehensive digital solutions to help your business thrive in the modern marketplace
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-xl mb-6">
+                            <i class="ri-code-s-slash-line text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Website Development</h3>
+                        <p class="text-gray-600 mb-6">
+                            Custom responsive websites built with modern technologies. Fast, secure, and optimized for all devices.
+                        </p>
+                        <div class="text-primary font-semibold mb-4">Starting at $2,999</div>
+                        <button class="w-full bg-gray-100 text-gray-700 py-3 !rounded-button hover:bg-gray-200 transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-16 h-16 flex items-center justify-center bg-secondary bg-opacity-10 rounded-xl mb-6">
+                            <i class="ri-palette-line text-2xl text-secondary"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">UI/UX Design</h3>
+                        <p class="text-gray-600 mb-6">
+                            Beautiful, user-centered designs that enhance engagement and drive conversions for your business.
+                        </p>
+                        <div class="text-primary font-semibold mb-4">Starting at $1,999</div>
+                        <button class="w-full bg-gray-100 text-gray-700 py-3 !rounded-button hover:bg-gray-200 transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-xl mb-6">
+                            <i class="ri-search-line text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">SEO Optimization</h3>
+                        <p class="text-gray-600 mb-6">
+                            Improve your search rankings and drive organic traffic with our proven SEO strategies.
+                        </p>
+                        <div class="text-primary font-semibold mb-4">Starting at $899/month</div>
+                        <button class="w-full bg-gray-100 text-gray-700 py-3 !rounded-button hover:bg-gray-200 transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-16 h-16 flex items-center justify-center bg-secondary bg-opacity-10 rounded-xl mb-6">
+                            <i class="ri-smartphone-line text-2xl text-secondary"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Mobile Apps</h3>
+                        <p class="text-gray-600 mb-6">
+                            Native and cross-platform mobile applications that deliver exceptional user experiences.
+                        </p>
+                        <div class="text-primary font-semibold mb-4">Starting at $4,999</div>
+                        <button class="w-full bg-gray-100 text-gray-700 py-3 !rounded-button hover:bg-gray-200 transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 rounded-xl mb-6">
+                            <i class="ri-shopping-cart-line text-2xl text-primary"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">E-commerce Solutions</h3>
+                        <p class="text-gray-600 mb-6">
+                            Complete online store development with payment integration and inventory management.
+                        </p>
+                        <div class="text-primary font-semibold mb-4">Starting at $3,999</div>
+                        <button class="w-full bg-gray-100 text-gray-700 py-3 !rounded-button hover:bg-gray-200 transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                        <div class="w-16 h-16 flex items-center justify-center bg-secondary bg-opacity-10 rounded-xl mb-6">
+                            <i class="ri-settings-3-line text-2xl text-secondary"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Maintenance & Support</h3>
+                        <p class="text-gray-600 mb-6">
+                            Ongoing website maintenance, updates, and technical support to keep your site running smoothly.
+                        </p>
+                        <div class="text-primary font-semibold mb-4">Starting at $299/month</div>
+                        <button class="w-full bg-gray-100 text-gray-700 py-3 !rounded-button hover:bg-gray-200 transition-colors whitespace-nowrap">
+                            Learn More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="py-20 bg-white">
+            <div class="max-w-4xl mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Book Your Consultation</h2>
+                    <p class="text-xl text-gray-600">
+                        Ready to transform your business? Schedule a free consultation with our expert team
+                    </p>
+                </div>
+                <div class="bg-gray-50 rounded-2xl p-8">
+                    <div class="grid lg:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-6">Select Service</h3>
+                            <div class="space-y-3 mb-8">
+                                <label class="flex items-center space-x-3 cursor-pointer">
+                                    <div class="relative">
+                                        <input type="radio" name="service" value="website" class="sr-only" checked>
+                                        <div class="w-5 h-5 border-2 border-gray-300 rounded-full flex items-center justify-center service-radio">
+                                            <div class="w-3 h-3 bg-primary rounded-full hidden radio-dot"></div>
+                                        </div>
+                                    </div>
+                                    <span class="text-gray-700">Website Development</span>
+                                </label>
+                                <label class="flex items-center space-x-3 cursor-pointer">
+                                    <div class="relative">
+                                        <input type="radio" name="service" value="design" class="sr-only">
+                                        <div class="w-5 h-5 border-2 border-gray-300 rounded-full flex items-center justify-center service-radio">
+                                            <div class="w-3 h-3 bg-primary rounded-full hidden radio-dot"></div>
+                                        </div>
+                                    </div>
+                                    <span class="text-gray-700">UI/UX Design</span>
+                                </label>
+                                <label class="flex items-center space-x-3 cursor-pointer">
+                                    <div class="relative">
+                                        <input type="radio" name="service" value="seo" class="sr-only">
+                                        <div class="w-5 h-5 border-2 border-gray-300 rounded-full flex items-center justify-center service-radio">
+                                            <div class="w-3 h-3 bg-primary rounded-full hidden radio-dot"></div>
+                                        </div>
+                                    </div>
+                                    <span class="text-gray-700">SEO Optimization</span>
+                                </label>
+                                <label class="flex items-center space-x-3 cursor-pointer">
+                                    <div class="relative">
+                                        <input type="radio" name="service" value="mobile" class="sr-only">
+                                        <div class="w-5 h-5 border-2 border-gray-300 rounded-full flex items-center justify-center service-radio">
+                                            <div class="w-3 h-3 bg-primary rounded-full hidden radio-dot"></div>
+                                        </div>
+                                    </div>
+                                    <span class="text-gray-700">Mobile App Development</span>
+                                </label>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900 mb-6">Available Time Slots</h3>
+                            <div class="grid grid-cols-2 gap-3">
+                                <button class="p-3 border border-gray-300 rounded-lg hover:border-primary hover:bg-primary hover:text-white transition-colors text-sm whitespace-nowrap time-slot">
+                                    9:00 AM
+                                </button>
+                                <button class="p-3 border border-gray-300 rounded-lg hover:border-primary hover:bg-primary hover:text-white transition-colors text-sm whitespace-nowrap time-slot">
+                                    11:00 AM
+                                </button>
+                                <button class="p-3 border border-gray-300 rounded-lg hover:border-primary hover:bg-primary hover:text-white transition-colors text-sm whitespace-nowrap time-slot">
+                                    2:00 PM
+                                </button>
+                                <button class="p-3 border border-gray-300 rounded-lg hover:border-primary hover:bg-primary hover:text-white transition-colors text-sm whitespace-nowrap time-slot">
+                                    4:00 PM
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-white rounded-xl p-6 mb-6">
+                                <h3 class="text-xl font-bold text-gray-900 mb-4">Select Date</h3>
+                                <div class="calendar-container">
+                                    <div class="flex items-center justify-between mb-4">
+                                        <button class="w-8 h-8 flex items-center justify-center hover:bg-gray-100 rounded" id="prev-month">
+                                            <i class="ri-arrow-left-s-line"></i>
+                                        </button>
+                                        <h4 class="font-semibold text-gray-900" id="current-month">December 2024</h4>
+                                        <button class="w-8 h-8 flex items-center justify-center hover:bg-gray-100 rounded" id="next-month">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                        </button>
+                                    </div>
+                                    <div class="grid grid-cols-7 gap-1 text-center text-sm">
+                                        <div class="p-2 text-gray-500 font-medium">Sun</div>
+                                        <div class="p-2 text-gray-500 font-medium">Mon</div>
+                                        <div class="p-2 text-gray-500 font-medium">Tue</div>
+                                        <div class="p-2 text-gray-500 font-medium">Wed</div>
+                                        <div class="p-2 text-gray-500 font-medium">Thu</div>
+                                        <div class="p-2 text-gray-500 font-medium">Fri</div>
+                                        <div class="p-2 text-gray-500 font-medium">Sat</div>
+                                    </div>
+                                    <div class="grid grid-cols-7 gap-1 text-center text-sm" id="calendar-days"></div>
+                                </div>
+                            </div>
+                            <form class="space-y-4">
+                                <div>
+                                    <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded-lg focus:border-primary focus:outline-none text-sm">
+                                </div>
+                                <div>
+                                    <input type="email" placeholder="Email Address" class="w-full p-3 border border-gray-300 rounded-lg focus:border-primary focus:outline-none text-sm">
+                                </div>
+                                <div>
+                                    <input type="tel" placeholder="Phone Number" class="w-full p-3 border border-gray-300 rounded-lg focus:border-primary focus:outline-none text-sm">
+                                </div>
+                                <div>
+                                    <textarea placeholder="Project Details (Optional)" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:border-primary focus:outline-none text-sm resize-none"></textarea>
+                                </div>
+                                <button type="submit" class="w-full bg-primary text-white py-3 !rounded-button hover:bg-opacity-90 transition-colors text-lg whitespace-nowrap">
+                                    Confirm Booking
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Recent Work</h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Explore our portfolio of successful projects and see how we've helped businesses transform their digital presence
+                    </p>
+                </div>
+                <div class="flex justify-center mb-12">
+                    <div class="flex bg-white rounded-full p-1 shadow-sm">
+                        <button class="px-6 py-2 rounded-full bg-primary text-white transition-colors whitespace-nowrap filter-btn active" data-filter="all">
+                            All Projects
+                        </button>
+                        <button class="px-6 py-2 rounded-full text-gray-600 hover:text-primary transition-colors whitespace-nowrap filter-btn" data-filter="website">
+                            Websites
+                        </button>
+                        <button class="px-6 py-2 rounded-full text-gray-600 hover:text-primary transition-colors whitespace-nowrap filter-btn" data-filter="mobile">
+                            Mobile Apps
+                        </button>
+                        <button class="px-6 py-2 rounded-full text-gray-600 hover:text-primary transition-colors whitespace-nowrap filter-btn" data-filter="ecommerce">
+                            E-commerce
+                        </button>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow portfolio-item" data-category="website">
+                        <div class="aspect-video overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=Modern%20professional%20business%20website%20homepage%20design%20with%20clean%20layout%2C%20corporate%20branding%2C%20navigation%20menu%2C%20hero%20section%2C%20contemporary%20UI%20elements%2C%20desktop%20view%2C%20high%20quality%20web%20design%2C%20professional%20color%20scheme%2C%20business%20website%20interface&width=600&height=400&seq=portfolio001&orientation=landscape"
+                                alt="Corporate Website" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">TechCorp Solutions</h3>
+                            <p class="text-gray-600 mb-4">Complete website redesign for technology consulting firm with improved UX and conversion optimization.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-primary font-medium">Website Development</span>
+                                <button class="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-primary transition-colors">
+                                    <i class="ri-external-link-line"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow portfolio-item" data-category="ecommerce">
+                        <div class="aspect-video overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=Modern%20e-commerce%20website%20design%20showing%20product%20catalog%2C%20shopping%20cart%20interface%2C%20clean%20product%20grid%20layout%2C%20online%20store%20homepage%2C%20professional%20retail%20website%20design%2C%20contemporary%20shopping%20experience%2C%20product%20showcase%20interface&width=600&height=400&seq=portfolio002&orientation=landscape"
+                                alt="E-commerce Store" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Fashion Boutique</h3>
+                            <p class="text-gray-600 mb-4">Custom e-commerce platform with advanced filtering, wishlist functionality, and seamless checkout process.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-secondary font-medium">E-commerce</span>
+                                <button class="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-primary transition-colors">
+                                    <i class="ri-external-link-line"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow portfolio-item" data-category="mobile">
+                        <div class="aspect-video overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=Mobile%20app%20interface%20design%20mockup%20showing%20smartphone%20screens%20with%20modern%20app%20UI%2C%20clean%20mobile%20application%20design%2C%20user%20interface%20elements%2C%20mobile%20app%20development%20showcase%2C%20contemporary%20mobile%20design%2C%20app%20screens%20display&width=600&height=400&seq=portfolio003&orientation=landscape"
+                                alt="Mobile App" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">FitTracker Pro</h3>
+                            <p class="text-gray-600 mb-4">Comprehensive fitness tracking mobile app with social features and personalized workout plans.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-primary font-medium">Mobile App</span>
+                                <button class="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-primary transition-colors">
+                                    <i class="ri-external-link-line"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow portfolio-item" data-category="website">
+                        <div class="aspect-video overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=Restaurant%20website%20design%20with%20elegant%20layout%2C%20food%20menu%20showcase%2C%20reservation%20system%2C%20professional%20restaurant%20branding%2C%20hospitality%20web%20design%2C%20dining%20establishment%20website%20interface%2C%20culinary%20business%20web%20presence&width=600&height=400&seq=portfolio004&orientation=landscape"
+                                alt="Restaurant Website" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Bella Vista Restaurant</h3>
+                            <p class="text-gray-600 mb-4">Elegant restaurant website with online reservations, menu showcase, and event booking system.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-secondary font-medium">Website Development</span>
+                                <button class="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-primary transition-colors">
+                                    <i class="ri-external-link-line"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow portfolio-item" data-category="ecommerce">
+                        <div class="aspect-video overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=Electronics%20e-commerce%20website%20design%20with%20product%20showcase%2C%20technology%20store%20interface%2C%20gadget%20catalog%20layout%2C%20modern%20online%20electronics%20retail%20design%2C%20tech%20product%20display%2C%20contemporary%20e-commerce%20platform&width=600&height=400&seq=portfolio005&orientation=landscape"
+                                alt="Electronics Store" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">ElectroHub Store</h3>
+                            <p class="text-gray-600 mb-4">Multi-vendor electronics marketplace with advanced search, comparison tools, and review system.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-primary font-medium">E-commerce</span>
+                                <button class="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-primary transition-colors">
+                                    <i class="ri-external-link-line"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow portfolio-item" data-category="mobile">
+                        <div class="aspect-video overflow-hidden">
+                            <img src="https://readdy.ai/api/search-image?query=Travel%20booking%20mobile%20app%20interface%20design%20showing%20destination%20search%2C%20hotel%20booking%20screens%2C%20travel%20planning%20app%20UI%2C%20vacation%20booking%20application%2C%20modern%20travel%20app%20design%2C%20tourism%20mobile%20interface&width=600&height=400&seq=portfolio006&orientation=landscape"
+                                alt="Travel App" class="w-full h-full object-cover object-top">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">WanderGuide App</h3>
+                            <p class="text-gray-600 mb-4">Travel planning and booking app with AI-powered recommendations and offline maps.</p>
+                            <div class="flex items-center justify-between">
+                                <span class="text-sm text-secondary font-medium">Mobile App</span>
+                                <button class="w-8 h-8 flex items-center justify-center text-gray-400 hover:text-primary transition-colors">
+                                    <i class="ri-external-link-line"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                    <div>
+                        <h2 class="text-4xl font-bold text-gray-900 mb-6">About Our Expert Team</h2>
+                        <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                            With over 8 years of experience in digital design and development, we've helped hundreds of businesses transform their online presence and achieve remarkable growth.
+                        </p>
+                        <div class="space-y-6 mb-8">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-6 h-6 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mt-1">
+                                    <i class="ri-check-line text-primary text-sm"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-900 mb-1">Certified Professionals</h3>
+                                    <p class="text-gray-600">Our team holds industry certifications from Google, Adobe, and leading technology platforms.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="w-6 h-6 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mt-1">
+                                    <i class="ri-check-line text-primary text-sm"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-900 mb-1">Award-Winning Design</h3>
+                                    <p class="text-gray-600">Recipients of multiple design awards including Webby Awards and CSS Design Awards.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="w-6 h-6 flex items-center justify-center bg-primary bg-opacity-10 rounded-full mt-1">
+                                    <i class="ri-check-line text-primary text-sm"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-semibold text-gray-900 mb-1">24/7 Support</h3>
+                                    <p class="text-gray-600">Round-the-clock technical support and maintenance for all our clients.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-3 gap-8">
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-primary mb-2">500+</div>
+                                <div class="text-sm text-gray-600">Projects Delivered</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-primary mb-2">98%</div>
+                                <div class="text-sm text-gray-600">Client Retention</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-primary mb-2">15</div>
+                                <div class="text-sm text-gray-600">Team Members</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-gray-50 p-6 rounded-xl">
+                            <div class="w-20 h-20 bg-gray-300 rounded-full mx-auto mb-4"></div>
+                            <h3 class="text-lg font-bold text-gray-900 text-center mb-2">Sarah Johnson</h3>
+                            <p class="text-sm text-gray-600 text-center mb-2">Lead Designer</p>
+                            <p class="text-xs text-gray-500 text-center">8+ years experience in UI/UX design with expertise in user research and conversion optimization.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-xl">
+                            <div class="w-20 h-20 bg-gray-300 rounded-full mx-auto mb-4"></div>
+                            <h3 class="text-lg font-bold text-gray-900 text-center mb-2">Michael Chen</h3>
+                            <p class="text-sm text-gray-600 text-center mb-2">Senior Developer</p>
+                            <p class="text-xs text-gray-500 text-center">Full-stack developer specializing in React, Node.js, and cloud architecture solutions.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-xl">
+                            <div class="w-20 h-20 bg-gray-300 rounded-full mx-auto mb-4"></div>
+                            <h3 class="text-lg font-bold text-gray-900 text-center mb-2">Emily Rodriguez</h3>
+                            <p class="text-sm text-gray-600 text-center mb-2">SEO Specialist</p>
+                            <p class="text-xs text-gray-500 text-center">Digital marketing expert with proven track record in organic growth and search optimization.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-xl">
+                            <div class="w-20 h-20 bg-gray-300 rounded-full mx-auto mb-4"></div>
+                            <h3 class="text-lg font-bold text-gray-900 text-center mb-2">David Thompson</h3>
+                            <p class="text-sm text-gray-600 text-center mb-2">Project Manager</p>
+                            <p class="text-xs text-gray-500 text-center">Certified PMP with experience managing complex digital transformation projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
+                    <p class="text-xl text-gray-600">
+                        Don't just take our word for it - hear from our satisfied clients
+                    </p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <div class="flex items-center mb-4">
+                            <div class="flex space-x-1">
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-6 italic">
+                            "The team delivered an exceptional website that perfectly captured our brand vision. Our online sales increased by 150% within the first three months!"
+                        </p>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Jennifer Martinez</h4>
+                                <p class="text-sm text-gray-600">CEO, GreenTech Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <div class="flex items-center mb-4">
+                            <div class="flex space-x-1">
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-6 italic">
+                            "Professional, responsive, and incredibly talented. They transformed our outdated website into a modern, conversion-focused platform."
+                        </p>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Robert Kim</h4>
+                                <p class="text-sm text-gray-600">Founder, Urban Fitness</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <div class="flex items-center mb-4">
+                            <div class="flex space-x-1">
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-6 italic">
+                            "Their mobile app development exceeded our expectations. The user experience is seamless and our customer engagement has doubled."
+                        </p>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Lisa Anderson</h4>
+                                <p class="text-sm text-gray-600">Marketing Director, FoodieHub</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <div class="flex items-center mb-4">
+                            <div class="flex space-x-1">
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-6 italic">
+                            "Outstanding SEO results! We went from page 3 to top 3 rankings for our key terms. Traffic increased by 300% in just 6 months."
+                        </p>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Marcus Williams</h4>
+                                <p class="text-sm text-gray-600">Owner, Premium Auto Parts</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <div class="flex items-center mb-4">
+                            <div class="flex space-x-1">
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-6 italic">
+                            "The e-commerce platform they built is fantastic. Easy to manage, great performance, and our customers love the shopping experience."
+                        </p>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Amanda Foster</h4>
+                                <p class="text-sm text-gray-600">Owner, Artisan Crafts Co.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-sm">
+                        <div class="flex items-center mb-4">
+                            <div class="flex space-x-1">
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                                <i class="ri-star-fill text-yellow-400"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-6 italic">
+                            "Incredible attention to detail and ongoing support. They're not just developers, they're true business partners invested in our success."
+                        </p>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full"></div>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Thomas Lee</h4>
+                                <p class="text-sm text-gray-600">CTO, FinanceFlow</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
+                    <p class="text-xl text-gray-600">
+                        Ready to start your project? Contact us today for a free consultation
+                    </p>
+                </div>
+                <div class="grid lg:grid-cols-2 gap-16">
+                    <div>
+                        <div class="space-y-8">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-xl">
+                                    <i class="ri-map-pin-line text-primary text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-2">Visit Our Office</h3>
+                                    <p class="text-gray-600">
+                                        123 Business District<br> New York, NY 10001<br> United States
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 flex items-center justify-center bg-secondary bg-opacity-10 rounded-xl">
+                                    <i class="ri-phone-line text-secondary text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-2">Call Us</h3>
+                                    <p class="text-gray-600">
+                                        Main: (555) 123-4567<br> Emergency: (555) 987-6543
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 flex items-center justify-center bg-primary bg-opacity-10 rounded-xl">
+                                    <i class="ri-mail-line text-primary text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-2">Email Us</h3>
+                                    <p class="text-gray-600">
+                                        hello@businesssolutions.com<br> support@businesssolutions.com
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 flex items-center justify-center bg-secondary bg-opacity-10 rounded-xl">
+                                    <i class="ri-time-line text-secondary text-xl"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-2">Business Hours</h3>
+                                    <p class="text-gray-600">
+                                        Monday - Friday: 9:00 AM - 6:00 PM<br> Saturday: 10:00 AM - 4:00 PM<br> Sunday: Closed
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-12 aspect-video rounded-xl overflow-hidden" style="background-image: url('https://public.readdy.ai/gen_page/map_placeholder_1280x720.png'); background-size: cover; background-position: center;"></div>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-2xl">
+                        <form class="space-y-6">
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
+                                    <input type="text" class="w-full p-3 border border-gray-300 rounded-lg focus:border-primary focus:outline-none text-sm">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
+                                    <input type="text" class="w-full p-3 border border-gray-300 rounded-lg focus:border-primary focus:outline-none text-sm">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                                <input type="email" class="w-full p-3 border border-gray-300 rounded-lg focus:border-primary focus:outline-none text-sm">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                                <input type="tel" class="w-full p-3 border border-gray-300 rounded-lg focus:border-primary focus:outline-none text-sm">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Service Interested In</label>
+                                <div class="relative">
+                                    <button type="button" class="w-full p-3 border border-gray-300 rounded-lg focus:border-primary focus:outline-none text-sm text-left bg-white flex items-center justify-between pr-8" id="service-select">
+                                        <span>Select a service</span>
+                                        <div class="w-4 h-4 flex items-center justify-center">
+                                            <i class="ri-arrow-down-s-line text-gray-400"></i>
+                                        </div>
+                                    </button>
+                                    <div class="absolute top-full left-0 right-0 bg-white border border-gray-300 rounded-lg mt-1 shadow-lg hidden z-10" id="service-dropdown">
+                                        <div class="p-2">
+                                            <button type="button" class="w-full text-left p-2 hover:bg-gray-50 rounded text-sm service-option">Website Development</button>
+                                            <button type="button" class="w-full text-left p-2 hover:bg-gray-50 rounded text-sm service-option">UI/UX Design</button>
+                                            <button type="button" class="w-full text-left p-2 hover:bg-gray-50 rounded text-sm service-option">SEO Optimization</button>
+                                            <button type="button" class="w-full text-left p-2 hover:bg-gray-50 rounded text-sm service-option">Mobile App Development</button>
+                                            <button type="button" class="w-full text-left p-2 hover:bg-gray-50 rounded text-sm service-option">E-commerce Solutions</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Project Budget</label>
+                                <div class="relative">
+                                    <button type="button" class="w-full p-3 border border-gray-300 rounded-lg focus:border-primary focus:outline-none text-sm text-left bg-white flex items-center justify-between pr-8" id="budget-select">
+                                        <span>Select budget range</span>
+                                        <div class="w-4 h-4 flex items-center justify-center">
+                                            <i class="ri-arrow-down-s-line text-gray-400"></i>
+                                        </div>
+                                    </button>
+                                    <div class="absolute top-full left-0 right-0 bg-white border border-gray-300 rounded-lg mt-1 shadow-lg hidden z-10" id="budget-dropdown">
+                                        <div class="p-2">
+                                            <button type="button" class="w-full text-left p-2 hover:bg-gray-50 rounded text-sm budget-option">$1,000 - $5,000</button>
+                                            <button type="button" class="w-full text-left p-2 hover:bg-gray-50 rounded text-sm budget-option">$5,000 - $10,000</button>
+                                            <button type="button" class="w-full text-left p-2 hover:bg-gray-50 rounded text-sm budget-option">$10,000 - $25,000</button>
+                                            <button type="button" class="w-full text-left p-2 hover:bg-gray-50 rounded text-sm budget-option">$25,000+</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Project Details</label>
+                                <textarea rows="4" class="w-full p-3 border border-gray-300 rounded-lg focus:border-primary focus:outline-none text-sm resize-none" placeholder="Tell us about your project requirements..."></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-primary text-white py-3 !rounded-button hover:bg-opacity-90 transition-colors text-lg whitespace-nowrap">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-primary">
+            <div class="max-w-7xl mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-white mb-4">Ready to Transform Your Business?</h2>
+                <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+                    Join hundreds of satisfied clients who have elevated their digital presence with our expert services. Get started today with a free consultation.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button class="bg-white text-primary px-8 py-4 !rounded-button hover:bg-gray-50 transition-colors text-lg font-semibold whitespace-nowrap">
+                        Get Free Consultation
+                    </button>
+                    <button class="border-2 border-white text-white px-8 py-4 !rounded-button hover:bg-white hover:text-primary transition-colors text-lg whitespace-nowrap">
+                        View Our Work
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <h3 class="text-2xl font-['Pacifico'] mb-6">logo</h3>
+                    <p class="text-gray-400 mb-6">
+                        Professional digital solutions that drive business growth and enhance customer experiences.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition-colors">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Services</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Website Development</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">UI/UX Design</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">SEO Optimization</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Mobile Apps</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">E-commerce</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Maintenance</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Company</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Our Team</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Portfolio</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Contact Info</h4>
+                    <div class="space-y-3 text-gray-400">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-5 h-5 flex items-center justify-center">
+                                <i class="ri-map-pin-line text-sm"></i>
+                            </div>
+                            <span>123 Business District, NY 10001</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-5 h-5 flex items-center justify-center">
+                                <i class="ri-phone-line text-sm"></i>
+                            </div>
+                            <span>(555) 123-4567</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-5 h-5 flex items-center justify-center">
+                                <i class="ri-mail-line text-sm"></i>
+                            </div>
+                            <span>hello@businesssolutions.com</span>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <h5 class="text-sm font-semibold mb-3">Newsletter</h5>
+                        <div class="flex gap-2">
+                            <input type="email" placeholder="Your email" class="flex-1 px-3 py-2 bg-gray-800 border border-gray-700 rounded-lg text-sm focus:border-primary focus:outline-none">
+                            <button class="bg-primary px-4 py-2 !rounded-button hover:bg-opacity-90 transition-colors whitespace-nowrap">
+                                <div class="w-4 h-4 flex items-center justify-center">
+                                    <i class="ri-send-plane-line text-sm"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm">
+                        © 2025 Business Solutions. All rights reserved.
+                    </p>
+                    <div class="flex space-x-6 mt-4 md:mt-0">
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
+                        <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script id="mobile-menu-script">
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenuBtn.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+
+    <script id="booking-functionality-script">
+        document.addEventListener('DOMContentLoaded', function() {
+            const serviceRadios = document.querySelectorAll('input[name="service"]');
+            const timeSlots = document.querySelectorAll('.time-slot');
+
+            serviceRadios.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    document.querySelectorAll('.radio-dot').forEach(dot => dot.classList.add('hidden'));
+                    this.closest('label').querySelector('.radio-dot').classList.remove('hidden');
+                });
+            });
+
+            document.querySelectorAll('.service-radio').forEach(radio => {
+                radio.addEventListener('click', function() {
+                    const input = this.closest('label').querySelector('input[type="radio"]');
+                    input.checked = true;
+                    input.dispatchEvent(new Event('change'));
+                });
+            });
+
+            timeSlots.forEach(slot => {
+                slot.addEventListener('click', function() {
+                    timeSlots.forEach(s => {
+                        s.classList.remove('bg-primary', 'text-white');
+                        s.classList.add('border-gray-300', 'hover:border-primary');
+                    });
+                    this.classList.add('bg-primary', 'text-white');
+                    this.classList.remove('border-gray-300', 'hover:border-primary');
+                });
+            });
+        });
+    </script>
+
+    <script id="calendar-script">
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentMonthElement = document.getElementById('current-month');
+            const calendarDaysElement = document.getElementById('calendar-days');
+            const prevMonthBtn = document.getElementById('prev-month');
+            const nextMonthBtn = document.getElementById('next-month');
+
+            let currentDate = new Date();
+            let selectedDate = null;
+
+            const months = [
+                'January', 'February', 'March', 'April', 'May', 'June',
+                'July', 'August', 'September', 'October', 'November', 'December'
+            ];
+
+            function renderCalendar() {
+                const year = currentDate.getFullYear();
+                const month = currentDate.getMonth();
+
+                currentMonthElement.textContent = `${months[month]} ${year}`;
+
+                const firstDay = new Date(year, month, 1).getDay();
+                const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+                calendarDaysElement.innerHTML = '';
+
+                for (let i = 0; i < firstDay; i++) {
+                    const emptyDay = document.createElement('div');
+                    emptyDay.className = 'p-2';
+                    calendarDaysElement.appendChild(emptyDay);
+                }
+
+                for (let day = 1; day <= daysInMonth; day++) {
+                    const dayElement = document.createElement('button');
+                    dayElement.className = 'p-2 hover:bg-primary hover:text-white rounded transition-colors';
+                    dayElement.textContent = day;
+                    dayElement.type = 'button';
+
+                    const today = new Date();
+                    if (year === today.getFullYear() && month === today.getMonth() && day < today.getDate()) {
+                        dayElement.className += ' text-gray-300 cursor-not-allowed';
+                        dayElement.disabled = true;
+                    }
+
+                    dayElement.addEventListener('click', function() {
+                        if (!this.disabled) {
+                            document.querySelectorAll('#calendar-days button').forEach(btn => {
+                                btn.classList.remove('bg-primary', 'text-white');
+                            });
+                            this.classList.add('bg-primary', 'text-white');
+                            selectedDate = new Date(year, month, day);
+                        }
+                    });
+
+                    calendarDaysElement.appendChild(dayElement);
+                }
+            }
+
+            prevMonthBtn.addEventListener('click', function() {
+                currentDate.setMonth(currentDate.getMonth() - 1);
+                renderCalendar();
+            });
+
+            nextMonthBtn.addEventListener('click', function() {
+                currentDate.setMonth(currentDate.getMonth() + 1);
+                renderCalendar();
+            });
+
+            renderCalendar();
+        });
+    </script>
+
+    <script id="portfolio-filter-script">
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+
+                    filterBtns.forEach(b => {
+                        b.classList.remove('bg-primary', 'text-white');
+                        b.classList.add('text-gray-600');
+                    });
+                    this.classList.add('bg-primary', 'text-white');
+                    this.classList.remove('text-gray-600');
+
+                    portfolioItems.forEach(item => {
+                        if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+    <script id="dropdown-script">
+        document.addEventListener('DOMContentLoaded', function() {
+            const serviceSelect = document.getElementById('service-select');
+            const serviceDropdown = document.getElementById('service-dropdown');
+            const serviceOptions = document.querySelectorAll('.service-option');
+
+            const budgetSelect = document.getElementById('budget-select');
+            const budgetDropdown = document.getElementById('budget-dropdown');
+            const budgetOptions = document.querySelectorAll('.budget-option');
+
+            serviceSelect.addEventListener('click', function(e) {
+                e.preventDefault();
+                serviceDropdown.classList.toggle('hidden');
+                budgetDropdown.classList.add('hidden');
+            });
+
+            budgetSelect.addEventListener('click', function(e) {
+                e.preventDefault();
+                budgetDropdown.classList.toggle('hidden');
+                serviceDropdown.classList.add('hidden');
+            });
+
+            serviceOptions.forEach(option => {
+                option.addEventListener('click', function() {
+                    serviceSelect.querySelector('span').textContent = this.textContent;
+                    serviceDropdown.classList.add('hidden');
+                });
+            });
+
+            budgetOptions.forEach(option => {
+                option.addEventListener('click', function() {
+                    budgetSelect.querySelector('span').textContent = this.textContent;
+                    budgetDropdown.classList.add('hidden');
+                });
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!serviceSelect.contains(e.target) && !serviceDropdown.contains(e.target)) {
+                    serviceDropdown.classList.add('hidden');
+                }
+                if (!budgetSelect.contains(e.target) && !budgetDropdown.contains(e.target)) {
+                    budgetDropdown.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+
+    <script id="smooth-scroll-script">
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
